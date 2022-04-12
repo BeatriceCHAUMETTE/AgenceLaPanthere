@@ -7,6 +7,22 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+blockquote {
+    padding: 10px;
+    border-left: none;
+}
+
+.quote {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+cite {
+    font-size: 22px;
+    font-style: normal;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -703,6 +719,7 @@ h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
+
 
 h3 {
     font-size: 15px;
